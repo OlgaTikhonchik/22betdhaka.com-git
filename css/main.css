@@ -728,6 +728,43 @@ html{
         height: 100%;
       }
       
+
+      .sidebar__cards a img{
+        position: relative;
+        width: 100%;
+        height:auto;
+        display: block;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        border-radius: 6px;
+        
+      }
+      
+      .sidebar__text{
+        position: absolute;
+        bottom:-5px;
+        background: linear-gradient(90deg, #0C8B97 0%, #2DB155 100%);
+
+        padding: 8px 83.3px;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+        color:#ffffff;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 17.7px;
+        text-transform: uppercase;
+        overflow: hidden;
+        
+      }
+      
+      .sidebar__text-first{
+        padding: 8px 88px;
+      }
+      
+      .sidebar__text-last{
+        padding: 8px 100.4px;
+      }
+      
       
     
     /* -----------hero ----------- */
